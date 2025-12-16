@@ -15,7 +15,7 @@ st.set_page_config(
 
 # =====================================================
 # PATHS
-DATA_PATH = "data_processed/MODMA_multimodal_features.csv"
+DATA_PATH = "./data_processed/MODMA_multimodal_features.csv"
 META_PATH = "metadata.csv"
 MODEL_DIR = "../Model_Output_Joblib"
 PREPROC_PATH = os.path.join(MODEL_DIR, "preprocessor.joblib")
